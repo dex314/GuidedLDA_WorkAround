@@ -4,12 +4,12 @@ This is a read me on how to get guided_lda working when the package will not suc
 This is in no way meant to undermine the author of the guided_lda package or to replace it in anyway and is 
 simply meant as a work around until the issue can be fully resolved.
 
-1. Unzip the guidedlda_edits.zip.
+1. Pull down the repository.
 
 2. Install the original LDA package. 
 	https://pypi.org/project/lda/
 	
-3. Drop the *.py files in the lda folder under site-packages for your specific enviroment.
+3. Drop the *.py files from the GuidedLDA_WorkAround repo in the lda folder under site-packages for your specific enviroment.
 
 4. Profit...
 
