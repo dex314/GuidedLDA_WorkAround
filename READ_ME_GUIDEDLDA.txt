@@ -18,11 +18,12 @@ EXAMPLE:
 
 import numpy as np
 from lda import guidedlda as glda
-<s>from lda import glda_datasets as gldad
-X = gldad.load_data(gldad.NYT)
-vocab = gldad.load_vocab(gldad.NYT)</s>
+##from lda import glda_datasets as gldad
+##X = gldad.load_data(gldad.NYT)
+##vocab = gldad.load_vocab(gldad.NYT)</s>
 
-Update courtesy of @senjed
+## !!!! Update courtesy of @senjed !!!!
+
 import lda.datasets as gldad
 X = gldad.load_reuters()
 vocab = gldad.load_reuters_vocab()
